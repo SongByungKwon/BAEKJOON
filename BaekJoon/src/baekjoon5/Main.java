@@ -1,5 +1,7 @@
-package baekjoon4;
+package baekjoon5;
+
 import java.util.Scanner;
+
 
 public class Main {
 
@@ -8,7 +10,8 @@ public class Main {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		sc.close();
-		System.out.print(A*B);
+		double C= A/(double)B;
+		System.out.printf("%f",C);
 
 	}
 
