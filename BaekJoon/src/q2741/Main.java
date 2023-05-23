@@ -11,6 +11,20 @@ public class Main {
 		for(int i =1; i<=num; i++) {
 			 System.out.println(i);
 		}
+		System.out.println("____________________");
+		int i=1;
+		while(i<=num) {
+			System.out.println(i);
+			i++;
+		}
+		System.out.println("____________________");
+		int j=1;
+		do {
+			System.out.println(j);
+			j++;
+			
+		}while(j<=num);
+		
 	}
 
 }
