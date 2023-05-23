@@ -17,6 +17,7 @@ public class Main {
 			for(int k=2;k<2*num-i;k++) {
 				System.out.print("?");
 			}
+			sc.close();
 			System.out.println();
 		}
 
